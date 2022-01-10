@@ -1,14 +1,8 @@
 /******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-//  Atbash ---------> plain---A--------------->Z
+				Cryptography
+		 Atbash ---------> plain---A--------------->Z
 		 CT=         Z================>A
-
-
+*******************************************************************************/
 
 #include<stdio.h>
 #include<string.h>
@@ -36,9 +30,7 @@ while(str[i]!='\0')
     {
       printf("%c",str[i]);    
     }
-    
    i++;
   }
   printf("\n");
- 
 }
